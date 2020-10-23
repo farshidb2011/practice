@@ -1,0 +1,11 @@
+{
+  "name": "ican",
+  "version": "1.0.0",
+  "description": "try to write project amaizing",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "farshidb",
+  "license": "ISC"
+}
