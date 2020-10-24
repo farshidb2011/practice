@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "try to write project amaizing",
   "main": "app.js",
-  "scripts": {
- 
-  },
+  "scripts": {},
   "author": "farshidb",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.2.0",
+    "webpack-cli": "^4.1.0"
+  }
 }
