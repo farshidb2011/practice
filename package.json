@@ -2,7 +2,7 @@
   "name": "ican",
   "version": "1.0.0",
   "description": "try to write project amaizing",
-  "main": "app.js",
+  "private" : true,
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "dev" : "webpack --mode development"
