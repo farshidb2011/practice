@@ -3,11 +3,15 @@
   "version": "1.0.0",
   "description": "try to write project amaizing",
   "main": "app.js",
-  "scripts": {},
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "dev" : "webpack --mode development"
+  },
   "author": "farshidb",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^5.2.0",
-    "webpack-cli": "^4.1.0"
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
   }
 }
