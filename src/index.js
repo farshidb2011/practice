@@ -1,8 +1,16 @@
-import _ from 'lodash';
+import './style.css';
+import farshid from './26037.svg';
 
 function component(){
     const element = document.createElement('div');
-    element.innerHTML = _.join(['Hello','webpack'],' ');
+    element.innerHTML = "Hello webpack";
+    element.classList.add('hello');
+    
+    const imgFarshid = new Image(500);
+    imgFarshid.classList.add('imgFarshid');
+    imgFarshid.src = farshid;
+
+    element.appendChild(imgFarshid);
     return element;
 }
 
