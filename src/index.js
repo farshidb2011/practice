@@ -1,3 +1,9 @@
-const util = require('util');
+import _ from 'lodash';
 
-console.log(util);
+function component(){
+    const element = document.createElement('div');
+    element.innerHTML = _.join(['Hello','webpack'],' ');
+    return element;
+}
+
+document.body.appendChild(component());
