@@ -4,8 +4,8 @@
   "description": "try to write project amaizing",
   "private": true,
   "scripts": {
-    "start": "webpack-dev-server --mode development --open",
-    "dev": "webpack --mode development --config webpack.dev.config.js"
+    "start": "webpack serve --conifg webpack.dev.config.js --mode development",
+    "dev": "webpack --mode development --config webpack.dev.config.js --watch"
   },
   "author": "farshidb",
   "license": "ISC",
