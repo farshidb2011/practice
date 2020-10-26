@@ -21,7 +21,9 @@ module.exports ={
         new HtmlWebpackPlugin({
             title : 'output managment',
         }),
-        new CleanWebpackPlugin(),
+        new CleanWebpackPlugin({
+            cleanStaleWebpackAssets : false,
+        }),
     ],
 
     resolve :{
