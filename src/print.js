@@ -1,3 +1,15 @@
+
+
 export default function printMe(){
-    console.log('I get called from print.js!');
+    let el = document.createElement('p');
+    
+    let myRequest = new Request('/home');
+    fetch('/home').then(function(response){
+        return response.text().then(function(data){
+            el.innerText = (JSON.parse(data)).message;
+        });
+    });
+
+
+    document.body.appendChild(el);
 }
